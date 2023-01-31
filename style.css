@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cmpny-logo img{
+    height: 50px;
+    margin: 38px 96px;
+}
+
+.contain{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* align-content: center; */
+
+}
+
+.dash{
+    height: 692px;
+    width: 1248px;
+    /* background-color: aqua; */
+    justify-self: center;
+    align-self: center;
+    
+    display: flex;
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chld1{
+    background: center / cover no-repeat url("https://account.pwskills.com/static/images/signin-card.png");
+    height: 100%;
+    width: 40%;
+    
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+}
+.chld2{
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    border: none;
+    /* border-radius: 40px 0px 0px 40px; */
+    display: flex;
+}
+.info-card{
+    /* padding-right: 32px; */
+    margin-left:  32px;
+    justify-self: center;
+    align-self: center;
+    width: 642px;
+    height: 430px;
+    /* background-color: aquamarine; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.gret{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gret-main{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.gret-secondary{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.phn-no{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px;
+    width: 201px; */
+}
+.phn-no p{
+    padding: 30px;
+
+}
+
+#phone{
+    border: none;
+    height: 30px;
+    width: 400px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    padding: 25px;
+}
+.btn{
+    padding: 20px 120px;
+    background-color: #5a4bda;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: transform 0.5s ease;
+    margin-top: 13px;
+    }
+    
+.btn:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+.google{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    transition: background-color,scale 0.5s ease;
+}
+
+.google:hover{
+    background-color: #a1d6d260;
+    cursor: pointer;
+    scale: 1.01;
+}
+
+.g-user{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+/* -------------------- */
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    background: hsl(200, 12%, 29%);
+  }
+  
+  .hr-lines{
+    position: relative;
+  }
+  
+  .hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 5px auto;
+    text-align: center;
+  }
+.hr-lines:after{
+  content:" ";
+  height: 1px;
+  width: 200px;
+  background: hsl(200, 12%, 29%);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+}
+.hr-lines{
+    color: hsl(200, 12%, 29%);
+}
